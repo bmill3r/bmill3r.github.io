@@ -1,0 +1,24 @@
+#Please use the main menu items under the "text"
+
+- text: Home
+  url: /
+#  submenu:
+#  - text: Home 2
+#    url: /index_2
+#  - text: Home 3
+#    url: /index_3
+- text: About
+  url: /#about
+#- text: Projects
+#  url: /portfolios
+- text: Blog
+  url: /blog
+#  submenu:
+#  - text: Blog
+#    url: /blog
+#  - text: Blog Details
+#    url: /html5-static-site
+- text: Publications
+  url: /publications
+- text: Connect
+  url: /#connect

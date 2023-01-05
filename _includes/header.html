@@ -1,0 +1,139 @@
+<!-- ========= Header Area Starts ============ -->
+<header>
+  <div class="header-area">
+    <div class="header-container pl-160">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+          <div class="logo pt-15">
+             <a href="{{site.url}}"><img src="{{site.logo_url}}" alt="{{site.title}}"/></a>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-6 col-2  ">
+          <div class="main-menu pl-60">
+            <nav id="mobile-menu">
+              <ul>
+               {% for navigation in site.data.navigation %}
+                <li><a href="{{navigation.url}}">{{navigation.text}}</a>
+                  {% if navigation.submenu %}
+                  <ul class="sub-menu">
+                    {% for sub_menu in navigation.submenu  %}
+                     <li><a href="{{sub_menu.url}}" class="{% if page.url contains sub_menu.url %} active {% else %} nav-link {% endif %}">{{sub_menu.text}}</a></li>
+                    {% endfor %}
+                  </ul>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-7  ">
+          <div class="search-menu position-relative  pt-30 d-flex justify-content-end pr-45">
+            <div class="search mr-30 position-relative ">
+              <a href="#"><img src="/assets/img/icons/search_icon.png" alt="search"></a>
+              <div class="search-form">
+                <form action="#">
+                  <input type="text" id="search-input" placeholder="Search..">
+                   <ul id="results-container"></ul>
+                </form>
+              </div>
+            </div>
+            <div class="info-bar">
+              <a href="#"><img src="/assets/img/icons/menu_icon.png" alt="menu icon"></a>
+            </div>
+            <div class="mobile-menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="extra-info ">
+      <div class="close-icon">
+        <button><i class="fas fa-times"></i></button>
+      </div>
+      <div class="logo text-center pb-30">
+        <img src="/assets/img/logo/logo.png" alt="logo">
+      </div>
+      <div class="main-menu wow fadeInUp ">
+        <nav id="extra-mobile-menu">
+          <ul class="extra-menu right-box">
+             {% for navigation in site.data.navigation %}
+              <li><a href="{{navigation.url}}">{{navigation.text}}</a></li>
+             {% endfor %}
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-footer wow fadeInUp right-boxed text-center">
+        <div class="social-list">
+           {% if site.lab_url %}
+          <a href="{{site.lab_url}}" target="_blank">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          {% endif %}
+          {% if site.youtube_url %}
+          <a href="{{site.youtube_url}}" target="_blank">
+            <i class="fab icon-scholar fa-lg"></i>
+          </a>
+          {% endif %}
+          {% if site.twitter_url %}
+          <a href="{{site.twitter_url }}" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          {% endif %}
+          {% if site.linkedin_url %}
+          <a href="{{site.linkedin_url}}" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+          <!-- {% if site.youtube_url %}
+          <a href="{{site.youtube_url}}" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          {% endif %} -->
+          <!-- {% if site.instagram_url %}
+          <a href="{{site.instagram_url}}" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          {% endif %} -->
+        </div>
+        <div class="copyright wow fadeInUp">
+          <p class="text-light">ⓒ <a href="{{site.company_url}}" target="_blank">{{site.company_name}}</a> {{ 'now' | date: "%Y" }}. All Rights Reserved </p>
+        </div>
+      </div>
+    </div>
+    
+    <!---
+    <div class="slider-social pl-150 pb-50">
+      <nav>
+        <ul class="animated fadeInUp">
+          {% if site.instagram_url %}
+          <li><a href="{{site.instagram_url}}" target="_blank">
+	      <i class="fab fa-instagram"></i>
+	  </a></li>
+          {% endif %}
+          {% if site.youtube_url %}
+          <li><a href="{{site.youtube_url}}" target="_blank">
+	      <i class="fab fa-youtube"></i>
+	  </a></li>
+          {% endif %}
+          {% if site.linkedin_url %}
+          <li><a href="{{site.linkedin_url}}" target="_blank">
+	      <i class="fab fa-linkedin"></i>
+	  </a></li>
+          {% endif %}
+          {% if site.twitter_url %}
+          <li><a href="{{site.twitter_url}}" target="_blank">
+	      <i class="fab fa-twitter"></i>
+	  </a></li>
+          {% endif %}
+          {% if site.lab_url %}
+          <li><a href="{{site.lab_url}}" target="_blank">
+	      <i class="fa fa-home"></i>
+	  </a></li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+    --->
+  </div>
+</header>
+<!-- ========= Header Area Ends ============ -->

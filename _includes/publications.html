@@ -1,0 +1,42 @@
+<div class="blog-area blog-bg {% if include.extra_class %} {{include.extra_class}} {% endif %}">
+  <div class="container">
+    <div class="section-title wow fadeInUp text-center pb-25">
+      <h3>Publications</h3>
+      <h2 class="mt-10 mb-45">Selected Articles</h2>
+    </div>
+    <div class="row">
+      {% assign papers = site.pubs | reverse %}
+      {% for paper in papers reversed limit: "6" %}
+      <div class="col-xl-4 col-lg-4">
+        <div class="ux-design ">
+          {% if paper.post_image %}
+          <div class="design-img wow fadeInUp mb-30">
+             <a href="{{paper.url}}"><img src="{{paper.post_image}}" alt="{{paper.title}}"/></a>
+          </div>
+          {% endif %}
+	  <div class="design-info pl-30 pb-30">
+	    <div class="design-title mb-25">
+	      <h5><a href="/category#{{ paper.categories }}">{{paper.categories}}</a></h5>
+	    </div>
+      <span class="pb-10">{{ paper.journal }}</span>
+	    <span class="pb-10">{{paper.date | date_to_long_string: "ordinal", "US"}}</span>
+	    <a href="{{paper.pdfurl}}">
+	      {{paper.title}}
+	      <p class="pt-20 pb-10">
+		{{ paper.excerpt | strip_html | truncatewords: 50 }}
+		<!-- <i>(continue reading)</i> -->
+	      </p>
+	    </a>
+          </div>
+	</div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="portfolio-button wow fadeInUp m-auto text-center">
+      <a class="btn" href="/publications">View All Publications <i class="fas fa-angle-double-right"></i></a>
+    </div>    
+  </div>
+</div>
+
+
+

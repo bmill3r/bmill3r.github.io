@@ -1,0 +1,25 @@
+<div class="sidebar-widget mb-50">
+  <div class="categories wow fadeInRight">
+    <h4><i class="fas fa-list"></i>All Categories</h4>
+    <ul class="categories-list pb-10 pl-30">
+      {% for category in site.categories %}
+        {% assign category_name = category[0] %}
+        <li>
+          <a class="text-capitalize" href="/category#{{ category_name }}/">
+            {{ category_name | replace: "-", " " }} <i class="fas fa-angle-right"></i>
+          </a>
+        </li>
+        {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="sidebar-widget">
+  <div class="latest-posts wow fadeInRight">
+    <h4><i class="fas fa-list"></i>Latest Posts</h4>
+    <ul class="categories-list pl-30 pb-30 pr-30">
+      {% for post in site.posts limit: 8 %}
+       <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

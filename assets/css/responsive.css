@@ -1,0 +1,798 @@
+/* ============== Screens less than 1680px ======================== */
+@media  (min-width: 1500px) and (max-width: 1680px) {
+    .slider-area-2 .offset-xl-1 {
+        margin-left: 30%;
+    }
+}
+
+/*===================== Extra-larger devices(desktops, less than 1500px)============== */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider-area .offset-xl-6 {
+        margin-left: 40%;
+    }
+    .slider-area-2 .offset-xl-1 {
+        margin-left: 30% !important;
+    }
+    .slider-area .offset-xl-1{
+        margin-left: 20%;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .brand-area {
+        width: 90%;
+        padding-left: 25px;
+    }
+
+    .portfolio-area-2 .single-portfolio img,
+    .portfolio-area-2 .single-portfolio .portfolio-detalis {
+        width: 100%;
+    }
+
+    .portfolio-area-2 .single-portfolio p {
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .portfolio-area-3 .portfolio-detalis p {
+        font-size: 17px;
+    }
+}
+
+/*  Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    .header-area .header-container {
+        padding-left: 80px;
+    }
+
+    .header-area .header-container .main-menu {
+        padding-left: 0;
+    }
+
+    .extra-info .logo {
+        text-align: left !important;
+    }
+
+    .project-title h3 {
+        font-size: 40px;
+    }
+
+    .project-info p {
+        font-size: 16px;
+    }
+
+    .project-area .project-detalis .project-text p {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    .project-area .project-img img {
+        width: 100%;
+    }
+
+    .project-area .sing-img {
+        margin-left: -16px;
+    }
+
+    .portfolio-area .section-title h2 {
+        padding-right: 185px;
+    }
+
+    .portfolio-img-width img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-img-width .portfolio-img-3 .portfolio-thumb {
+        height: 309px;
+    }
+
+    .portfolio-img-width .portfolio-detalis .portfolio-wrapper:nth-child(2) .portfolio-thumb {
+        height: 644px;
+    }
+
+    .portfolio-area-2 .portfolio-detalis p {
+        font-size: 16px;
+    }
+
+    .testimonial-area .testimonial-wrapper p {
+        font-size: 16px;
+    }
+
+    .responsive-testimonial .testimonial-wrapper p {
+        padding-left: 20px;
+    }
+
+    .responsive-testimonial .testimonial-wrapper .clint-info {
+        padding-left: 20px;
+    }
+
+    .responsive-testimonial .testimonial-wrapper .clint-info .clint-star {
+        padding-left: 50px;
+    }
+
+    .brand-area {
+        width: 90%;
+        padding-left: 0px;
+    }
+
+    .blog-area .ux-design .design-img img {
+        width: 100%;
+    }
+
+    .footer-area .footer-widget .call-info p {
+        font-size: 16px;
+    }
+
+    /* home-3*/
+    .service-bg {
+        width: 98%;
+    }
+
+    .work-area .work-img img {
+        width: 100%;
+    }
+
+    .work-area .working-title h3 {
+        padding-right: 0;
+    }
+
+    .portfolio-area-3 .portfolio-detalis p {
+        font-size: 14px;
+    }
+
+    /*Service page*/
+    .creativ-area .creative-title h4 {
+        font-size: 40px;
+    }
+
+    .creativ-area .creative-text {
+        padding-top: 15px;
+    }
+
+    /* Blog-detalis Page*/
+    .blog-detalis-area img {
+        width: 100%;
+    }
+
+    .blog-detalis-area .comments-box {
+        background-size: 595px 191px;
+        background-position-x: 15px !important;
+    }
+
+    .blog-detalis-area .comments-box .comments-avatar img {
+        width: auto;
+    }
+
+    .blog-detalis-area .comments-reply .comments-box {
+        background-size: 494px 191px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    .header-area .search-menu .info-bar {
+        display: none;
+    }
+
+    .page-height {
+        padding-top: 140px;
+        padding-bottom: 120px;
+
+    }
+
+    .project-area .project-img {
+        display: none;
+    }
+
+    .project-info p::before {
+        height: 65%;
+    }
+
+    .promo-video h1 {
+        padding: 0;
+    }
+
+    .portfolio-area .section-title h2 {
+        padding-right: 0;
+    }
+
+    .portfolio-area .portfolio-content {
+        top: 34%;
+    }
+
+    .portfolio-area .portfolio-content .icon a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .portfolio-area .portfolio-content .icon a::before {
+        top: 45px;
+        left: 26px;
+    }
+
+    .portfolio-area .portfolio-content .icon a::after {
+        left: 46px;
+        top: 29px;
+    }
+
+    .portfolio-img-width .portfolio-img-3 .portfolio-thumb {
+        height: 227px;
+    }
+
+    .portfolio-img-width .portfolio-detalis .portfolio-wrapper:nth-child(2) .portfolio-thumb {
+        height: 516px;
+    }
+
+    .skill-area .web-design .counting-area {
+        padding-right: 60px;
+    }
+
+    .skill-area .web-design .single-counter h4 {
+        font-size: 24px;
+    }
+
+    .skill-area .web-design .single-counter span {
+        font-size: 65px;
+    }
+
+    .skill-area .team-text {
+        padding-right: 35px;
+    }
+
+    .responsive-testimonial .testimonial-detalis {
+        margin-left: -218px;
+    }
+
+    .testimonial-area .testimonial-detalis .clint-info h4 {
+        font-size: 15px;
+    }
+
+    .blog-area .ux-design .design-info span {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .progress-design h5 {
+        font-size: 16px;
+    }
+
+    .price-area .price-detalis .price-btn a {
+        width: 90%;
+    }
+
+    .footer-area .footer-widget .footer-icon a {
+        font-size: 18px;
+        margin-right: 16px;
+    }
+    .footer-area .footer-widget .call-info p, 
+    .footer-area .footer-widget .call-info a {
+        font-size: 15px;
+    }
+
+    /* Home-2 */
+    
+    .service-area-2 .service-detalis .service-info p {
+        font-size: 15px;
+    }
+    .service-area-2 .service-detalis .service-info h3 {
+        font-size: 16px;
+        color: #1c232b;
+    }
+
+    .contact-area-2 .contact-bg{
+        padding-top: 30px;
+    }
+
+    .portfolio-active-2:first-child .portfolio-detalis p,
+    .portfolio-active-2:nth-child(4) .portfolio-detalis p{
+        padding-right:75px !important;
+    }
+
+
+   
+
+    /*home-3*/
+    .work-area .work-img {
+        display: none;
+    }
+
+    .project-area-3 .project-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .portfolio-area-3 .portfolio-bg {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .work-area .working-icon{
+        justify-content: center;
+    }
+    .service-area-3{
+        padding-top: 105px;
+    }
+
+    /*Service page*/
+    .creativ-area .creative-detalis .creative-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .creativ-area .creative-img img {
+        width: 100%;
+    }
+
+    /* Blog-detalis Page*/
+    .blog-detalis-area{
+        padding-bottom: 0px;   
+    }
+    .blog-detalis-area img {
+        width: 100%;
+    }
+
+    .blog-sidebar .blog-text p {
+        font-size: 16px;
+    }
+
+    .blog-sidebar .blog-text h5 {
+        padding-right: 0;
+    }
+
+    .blog-sidebar .blog-content p {
+        font-size: 24px;
+    }
+
+    .blog-detalis-area .comments-box {
+        background-size: 415px 191px;
+        background-position-x: 35px !important;
+    }
+
+    .blog-detalis-area .comments-box .comments-text p {
+        padding-right: 0;
+    }
+
+    .blog-detalis-area .comments-box .comments-avatar {
+        padding-right: 50px;
+    }
+
+    .blog-detalis-area .comments-reply .comments-box {
+        background-size: 365px 191px;
+        margin-left: 50px;
+    }
+
+    .blog-detalis-area .comments-reply .comments-avatar {
+        padding-right: 25px;
+    }
+
+    .blog-detalis-area .sidebar-widget .categories-list li a i {
+        padding-right: 25px;
+    }
+
+    /*Contact page*/
+    .contact-information .contact-wrapper .contact-detalis span {
+        font-size: 14px;
+        letter-spacing: -.4px;
+    }
+
+   
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+    .header-area .slider-social {
+        display: none;
+    }
+
+    .mobile-menu {
+        padding-left: 0;
+    }
+
+    .project-title h3 {
+        font-size: 30px;
+    }
+
+    .project-info p {
+        font-size: 14px;
+    }
+
+    .promo-video h1 {
+        font-size: 55px;
+    }
+
+    .portfolio-area .portfolio-content .icon a {
+        width: 60px;
+        height: 60px;
+    }
+
+    .portfolio-area .portfolio-content .icon a::before {
+        width: 30px;
+        top: 50%;
+        left: 28%;
+    }
+
+    .portfolio-area .portfolio-content .icon a::after {
+        height: 30px;
+        left: 50%;
+        top: 17px;
+    }
+
+    .portfolio-img-width .portfolio-img-3 .portfolio-thumb {
+        height: 167px;
+    }
+
+    .portfolio-img-width .portfolio-detalis .portfolio-wrapper:nth-child(2) .portfolio-thumb {
+        height: 421px;
+    }
+
+    .portfolio-area-2 .section-title h2 br {
+        display: none;
+    }
+
+    .team-slick-next {
+        left: 70%;
+    }
+
+    .team-slick-prev {
+        left: 10%;
+    }
+
+    .skill-area-2 .growth-counter {
+        padding-top: 120px;
+    }
+
+    .service-area-2 .service-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .responsive-testimonial .testimonial-detalis {
+        margin-left: -80px;
+    }
+
+    .contact-area .contact-bg {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*home-3*/
+    .project-area-3 .project-title a {
+        font-size: 50px;
+    }
+
+    .portfolio-area-3 .portfolio-bg {
+        padding-left: 10px;
+    }
+
+    .skill-area-3 .progress-outer:first-child {
+        padding-top: 120px;
+    }
+
+    /*Service page*/
+    .page-title-area .page-title {
+        padding-left: 0;
+    }
+
+    .creativ-area .creative-text p {
+        font-size: 16px;
+    }
+
+    .creativ-area .creative-title h4 {
+        font-size: 35px;
+    }
+
+    /*Portfolio page*/
+    .portfolio-page .portfolio-detalis p {
+        font-size: 14px;
+    }
+
+    /*Blog Page*/
+    .blog-detalis-area .comments-box {
+        background-size: 94% 191px;
+        background-position-x: 30px !important;
+    }
+
+    .blog-detalis-area .comments-box .comments-text p {
+        padding-right: 10px;
+    }
+
+    .blog-detalis-area .comments-box .comments-avatar {
+        padding-right: 50px;
+    }
+
+    .blog-detalis-area .comments-reply .comments-box {
+        background-size: 93% 191px;
+        margin-left: 50px;
+    }
+
+    .blog-detalis-area .comments-reply .comments-avatar {
+        padding-right: 25px;
+    }
+
+    .blog-detalis-area .sidebar-widget:first-child {
+        margin-top: 60px;
+    }
+
+    /*Contact page*/
+    .contact-information .contact-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .blog-detalis-area .portfolio-area {
+        display: none;
+    }
+
+    .blog-detalis-area .submit {
+        text-align: center;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .header-area .header-container {
+        padding-left: 10px;
+    }
+
+    .slider-area .hero-text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .slider-area .hero-text .hero-buttons {
+        text-align: center;
+    }
+
+    .slider-area .hero-text .hero-buttons a {
+        margin-bottom: 30px;
+    }
+
+
+    .project-area .single-counter
+     {
+        text-align: center;
+        margin-bottom: 30px;
+        float: left;
+        width: 50%;
+    }
+    .project-area .sing-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .section-title h2 br {
+        display: none;
+    }
+
+    .promo-video h1 {
+        font-size: 34px;
+    }
+
+    .portfolio-area .portfolio-detalis .no-gutters {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-area .portfolio-img-3 .portfolio-content,
+    .portfolio-area .portfolio-content {
+        left: 43%;
+        top: 36%;
+    }
+
+    .portfolio-area .portfolio-img-3 .portfolio-thumb {
+        height: auto;
+    }
+
+    .portfolio-area .portfolio-detalis .portfolio-wrapper:nth-child(2) .portfolio-thumb {
+        display: none;
+    }
+
+    .portfolio-area-2 .portfolio-title {
+        display: block !important;
+    }
+
+    .portfolio-area-2 .portfolio-title .portfolio-button {
+        margin-bottom: 30px;
+    }
+
+    .service-area-2 .service-wrapper {
+        display: block;
+    }
+
+    .service-area-2 .service-wrapper .service-detalis {
+        margin-bottom: 30px;
+    }
+
+    .blog-area .design-info {
+        padding-right: 0;
+    }
+
+    .promo-area-2 .promo-video {
+        padding: 120px 0px;
+    }
+
+    .project-area-3 {
+        height: 450px;
+    }
+
+    .promo-area-3 {
+        margin-top: -215px;
+    }
+
+    .portfolio-area-3 .single-portfolio .portfolio-content {
+        left: 40%;
+        top: 24%;
+    }
+
+    .responsive-testimonial .testimonial-detalis {
+        margin-left: -196px;
+    }
+
+    .responsive-testimonial .testimonial-wrapper .clint-info .clint-star {
+        padding-left: 35px;
+    }
+
+    .footer-area .footer-widget .footer-icon {
+        padding-bottom: 20px;
+    }
+
+    .footer-area .footer-widget .footer-icon a {
+        font-size: 16px;
+    }
+
+    .footer-area .copyright p {
+        font-size: 14px;
+    }
+
+    .footer-area .footer-widget .call-info a {
+        font-size: 14px;
+        letter-spacing: -.3px;
+    }
+
+    /*home-3*/
+    .work-area .working-title h3 {
+        font-size: 28px;
+    }
+
+    .work-area .working-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .project-area-3 .project-title a {
+        font-size: 40px;
+    }
+
+    /*Service page*/
+    .page-title-area {
+        padding-top: 190px;
+        padding-bottom: 170px;
+    }
+
+    .page-title-area .page-title h2 {
+        font-size: 40px;
+    }
+
+    .creativ-area .creative-detalis {
+        text-align: left !important;
+    }
+
+    /*Blog Detalis*/
+    .blog-detalis-area .comments-box {
+        background: none !important;
+    }
+}
+
+@media (max-width: 389px) {
+    .responsive-testimonial .testimonial-wrapper {
+        display: block !important;
+    }
+
+    .responsive-testimonial .testimonial-detalis {
+        margin-left: 0;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .responsive-testimonial .testimonial-detalis p {
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+
+    .team-slick-next {
+        left: 60%;
+    }
+
+    .team-slick-prev {
+        left: 5%;
+    }
+
+    .testimonial-area-2 .testimonial-detalis .clint-info .clint-star {
+        padding-right: 0;
+    }
+
+    .team-area .single-team {
+        margin-left: 9px;
+    }
+
+    .team-area .single-team .team-social {
+        left: -15px;
+    }
+
+    .team-area .single-team .team-social li a {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+    }
+
+    .blog-area .design-detalis {
+        display: block !important;
+    }
+
+    .blog-area .design-detalis .design-info {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    .blog-area .problem-area p {
+        font-size: 16px;
+    }
+
+    .progress-design h5 {
+        font-size: 15px;
+    }
+
+    .footer-area .pr-md-0,
+    .footer-area .pl-md-0{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    
+    
+
+    .brand-area .brand-active{
+        padding-left: 30px;
+    }
+
+    /*home-3*/
+    .project-area-3 .project-title a {
+        font-size: 34px;
+    }
+
+    .blog-sidebar .blog-content {
+        padding-left: 12px;
+        padding-right: 10px;
+    }
+
+    .blog-sidebar .blog-content p {
+        font-size: 22px;
+    }
+
+    .blog-sidebar .blog-comment .reply-icon li:last-child {
+        margin-right: 0;
+    }
+
+    .blog-detalis-area .comments-box .comments-avatar {
+        padding-right: 15px;
+    }
+
+    .blog-detalis-area .comments-reply .comments-box {
+        margin-left: 0;
+    }
+
+    .work-area .working-icon {
+        display: block !important;
+        text-align: center;
+    }
+
+    .work-area .working-icon .icon,
+    .work-area .working-icon .hover-icon {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,63 @@
+<div class="slider-area slider-area-3 owl-carousel owl-loaded">
+  <div class="single-slide slider-height" style="background-image: url('/assets/img/banner.jpg');">
+    <div class="slider-content">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xl-6 offset-xl-1  col-lg-7 col-md-9 col-12 offset-lg-1">
+            <div class="hero-text">
+	      <div class="wow fadeInDown">
+		<span></span>
+		<h1>Dr. Brendan Miller</h1>
+	      </div>
+              <p class="wow fadeInLeft">
+		Molecular biologist by training.<br>
+		Computational biologist by profession.<br>
+	      </p>
+              <!--
+		  <div class="hero-buttons">
+                    <a href="#">Download CV</a>
+                    <a href="https://www.youtube.com/watch?v=4oSEo1T5NXc" class="mfp-iframe">
+                      <div class="paly-button"><img src="/assets/img/icons/play-button.png" alt="play-button"></div>
+                      <span class="text-white pr-3">Play Video</span>
+                    </a>
+		  </div>
+		  --->
+		  <div class="social-list hero-buttons wow fadeInUp">
+		    {% if site.lab_url %}
+		    <a href="{{site.lab_url}}" target="_blank">
+		      <i class="fab fa-github fa-lg"></i>
+		    </a>
+		    {% endif %}
+		    {% if site.youtube_url %}
+		    <a href="{{site.youtube_url}}" target="_blank">
+		      <i class="fab icon-scholar fa-lg"></i>
+		    </a>
+		    {% endif %}
+		    {% if site.twitter_url %}
+		    <a href="{{site.twitter_url }}" target="_blank">
+		      <i class="fab fa-twitter fa-lg"></i>
+		    </a>
+		    {% endif %}
+		    {% if site.linkedin_url %}
+		    <a href="{{site.linkedin_url}}" target="_blank">
+		      <i class="fab fa-linkedin fa-lg"></i>
+		    </a>
+		    {% endif %}
+		    <!-- {% if site.youtube_url %}
+		    <a href="{{site.youtube_url}}" target="_blank">
+		      <i class="fab fa-youtube fa-lg"></i>
+		    </a>
+		    {% endif %} -->
+		    <!-- {% if site.instagram_url %}
+		    <a href="{{site.instagram_url}}" target="_blank">
+		      <i class="fab fa-instagram fa-lg"></i>
+		    </a>
+		    {% endif %} -->
+		  </div>
+	    </div>
+	  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+---
+layout: page
+title: "Categories"
+permalink: "/category"
+---
+
+
+<div class="main-section pt-120 pb-120" style="background-image: url(/assets/img/bg/grid-paper-bg.jpg); background-repeat:repeat-y;">
+  <div class="blog-area">
+    <div class="container">
+      <div class="row">	
+	<div class="categories portfolio-button">
+	  {% for tagitem in site.categories  %} 
+	  <a class="btn" href="#{{  tagitem[0] }}">{{  tagitem[0] }}</a>
+	  {% endfor %}
+	</div>	
+      </div>
+
+      <hr>
+      
+      <!-- iterate through all categories on the site --> 
+      {% for tagitem in site.categories %}
+      <div class="row post-content">      
+	<!-- for each tag, create an anchor by using the tag name as an id --> 
+	<div id="{{ tagitem[0] }}">  
+	  <h3> {{ tagitem[0] }} </h3>  <!-- for create a heading --> 
+
+	  <ul> <!-- create the list of posts -->
+	    <!-- iterate through all the posts on the site --> 
+	    {% for post in site.posts %} 
+            <!-- list only those which contain the current tag --> 
+            {% if post.categories contains tagitem[0] %} 
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a> on {{post.date | date_to_long_string: "ordinal", "US"}}
+            </li>
+            {% endif %}
+	    {% endfor %}
+	  </ul>
+	</div>
+      </div>
+      {% endfor %}
+
+  
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+---
+layout: page
+title: "Blog Posts"
+permalink: "/blog"
+---
+
+<div class="main-section pt-120 pb-120" style="background-image: url(/assets/img/bg/grid-paper-bg.jpg); background-repeat:repeat-y;">
+  <div class="blog-area">
+    <div class="container">
+      {% for post in site.posts %}
+      <div class="row">
+        <div class="col-md-12">
+          <div class="ux-design wow fadeInUp">
+	    <div class="design-info pl-30 pb-30">
+	      <div class="design-title mb-25">
+		<h5><a href="/category#{{ post.categories[0] }}">{{post.categories[0]}}</a></h5>
+	      </div>
+	      <span class="pb-10">{{post.date | date_to_long_string: "ordinal", "US"}}</span>
+	      <a href="{{post.url}}">
+		{{post.title}}
+		<p class="pt-20 pb-10">
+		  {{ post.excerpt }}
+		  <i>(continue reading)</i>
+		</p>
+	      </a>
+	    </div>
+	  </div>	  
+	</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+

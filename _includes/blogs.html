@@ -1,0 +1,40 @@
+<div class="blog-area blog-bg {% if include.extra_class %} {{include.extra_class}} {% endif %}">
+  <div class="container">
+    <div class="section-title wow fadeInUp text-center pb-25">
+      <h3>Blog</h3>
+      <h2 class="mt-10 mb-45">Reflections on Academia</h2>
+    </div>
+    <div class="row">
+      {% for post in site.posts limit: "6" %}
+      <div class="col-xl-4 col-lg-4">
+        <div class="ux-design ">
+          {% if post.post_image %}
+          <div class="design-img wow fadeInUp mb-30">
+             <a href="{{post.url}}"><img src="{{post.post_image}}" alt="{{post.title}}"/></a>
+          </div>
+          {% endif %}
+	  <div class="design-info pl-30 pb-30">
+	    <div class="design-title mb-25">
+	      <h5><a href="/category#{{ post.categories[0] }}">{{post.categories[0]}}</a></h5>
+	    </div>
+	    <span class="pb-10">{{post.date | date_to_long_string: "ordinal", "US"}}</span>
+	    <a href="{{post.url}}">
+	      {{post.title}}
+	      <p class="pt-20 pb-10">
+		{{ post.excerpt | strip_html | truncatewords: 50 }}
+		<i>(continue reading)</i>
+	      </p>
+	    </a>
+          </div>
+	</div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="portfolio-button wow fadeInUp m-auto text-center">
+      <a class="btn" href="/blog">View All Blog Posts <i class="fas fa-angle-double-right"></i></a>
+    </div>    
+  </div>
+</div>
+
+
+
