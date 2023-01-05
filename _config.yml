@@ -2,7 +2,7 @@ title: "Brendan Miller | Personal site"
 email: "bmille79@jhu.edu"
 description: Personal website of Dr. Brendan Miller
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://brendan.miller" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brendan.miller.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:year/:month/:day/:title:output_ext"
 # Build settings
 markdown: kramdown
