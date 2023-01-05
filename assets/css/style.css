@@ -45,6 +45,10 @@
   width: auto;
 }
 
+code {
+  font-family: monospace;
+}
+
 body {
 	font-family: 'Sen'; /*basically everything else that is not a header, includes menu text too */
 	font-weight: normal;
