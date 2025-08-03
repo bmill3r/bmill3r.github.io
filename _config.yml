@@ -2,7 +2,7 @@ title: "Brendan Miller | Personal site"
 email: "bmille79@jhu.edu"
 description: Personal website of Dr. Brendan Miller
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://brendan.miller" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bmill3r.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:year/:month/:day/:title:output_ext"
 # Build settings
 markdown: kramdown
@@ -13,7 +13,7 @@ logo_url: "/assets/img/logo/logo.png"
 banner_url: "/assets/img/banner-small.jpg"
 
 company_name: Brendan Miller
-company_url: "https://brendan.miller"
+company_url: "https://bmill3r.github.io"
 lab_url: "https://github.com/bmill3r"
 twitter_url: "https://twitter.com/bf_miller_"
 # instagram_url: ""
